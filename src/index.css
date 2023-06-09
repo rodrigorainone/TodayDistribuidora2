@@ -589,7 +589,7 @@ p {
   background-color: #f37748;
   border: none;
   color: white;
-  border-radius: 15px;
+  border-radius: 10px;
   font-size: 18px;
   margin-top: 50px;
   align-self: flex-end;
@@ -637,12 +637,18 @@ p {
   height: 37px;
   border-radius: 5px;
   border: none;
+  outline: none;
+  padding-left: 5%;
 }
 
 .contenedorDatosComent textarea {
   width: 100%;
   height: 271px;
   border-radius: 5px;
+  outline: none;
+  padding-left: 5%;
+  padding-top: 5%;
+  border: none;
 }
 
 .contactoFormContainer p {
@@ -878,14 +884,18 @@ p {
   .navProductos ul {
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
   }
 
   .productosView {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
   }
+
+  
 
   .card {
     width: 95%;
@@ -956,7 +966,7 @@ p {
   background-color: #f37748;
   border: none;
   color: white;
-  border-radius: 15px;
+  border-radius: 10px;
   font-size: 18px;
   align-self: flex-end;
 }
@@ -1129,26 +1139,44 @@ footer img {
   }
   /*  producots */
 
-  .card-title  {    
-    font-size: 50px;
-   }
-   .cardInfo p {    
-      font-size: 18px;
+  .ProductosContainer {
+    
+    margin-left: 5px;
+    margin-right: 5px;
     
   }
+  .card-title  {    
+    font-size: 45px;
+    margin-top: 10px;
+   }
+   .cardInfo p {    
+      margin-top: 10%;
+      font-size: 18px;
+      width: 85%;
+  }
   .card {       
-    height: 650px;    
+    height: 500px;    
     
   }
 
+  .boton{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
   .boton2{
-    margin-top: 100px;
+    margin-top: 20px;
+    margin-bottom: 10px;
   }
 
   .card2{    
       
-      width:95%;      
+      width:98%;  
+      height: 480px;     
     
+  }
+
+  .card2 h5{
+    margin-top: 40px;
   }
   .active {
     color: black !important;
@@ -1162,29 +1190,44 @@ footer img {
     color: var(--colorPrincipal) !important;
   }
   .HeladosData p{
-    font-size: 25px;
+    font-size: 24px;
   }
   .HeladosData img{
     width: 30%;
     height: 100%;
   }
- 
+  .navProductos ul li {
+    margin-top: 30px;
+    font-size: 28px;    
+    
+  }
+
+  .navProductos ul {
+    margin-right: 15px;
+    margin-left: 15px;  
+    
+  }
+
+  
+
+  
    /* contacto */
 
 
    .contactoContainerSub {
-    
-    width: 90%;
+    height: 1120px;
+    width: 92%;
   }
    .infoTopContacto {
-    
-    gap: 45px;
+    flex-direction: column;
+    gap: 20px;
     margin-bottom: 80px;
+    align-items: center;
     
   }
    .tituloInfoTopContacto {
     font-size: 24px;    
-    margin-left: 30px;
+    margin-left: 10px;
   }
 
   .formulario {
@@ -1216,6 +1259,15 @@ footer img {
   height: 40px;
   width: 90px;
   font-size: 18px;
+  margin-top: 30px;
   
+}
+
+/* preguntas preguntes*/
+.inputBuscar::placeholder { font-size: 13px; }
+
+.preguntasContainer{
+  margin-top: 20px;
+  height: 45%;
 }
 }
