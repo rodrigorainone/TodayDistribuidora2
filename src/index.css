@@ -1266,8 +1266,12 @@ footer img {
 /* preguntas preguntes*/
 .inputBuscar::placeholder { font-size: 13px; }
 
-.preguntasContainer{
+.preguntasContainer{  margin-top: 20px;
+  
+}
+
+.infoPreguntas {
   margin-top: 20px;
-  height: 45%;
+  padding-bottom: 50px;
 }
 }
