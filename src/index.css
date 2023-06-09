@@ -1055,9 +1055,10 @@ footer img {
   footer{
     flex-wrap: wrap;
     padding-top: 20px;
+    padding-bottom: 20px;
     flex-direction:column-reverse;
     gap: 35px;
-    font-size: 15px;
+    font-size: 20px;
     min-height: 300px;
 
   }
