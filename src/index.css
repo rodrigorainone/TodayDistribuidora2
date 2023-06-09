@@ -1055,8 +1055,16 @@ footer img {
   footer{
     flex-wrap: wrap;
     padding-top: 20px;
-    flex-direction: column;
-    gap: 25px;
+    flex-direction:column-reverse;
+    gap: 35px;
+    font-size: 15px;
+    min-height: 300px;
+
+  }
+
+  footer img {
+    width: 207px;
+    height: 76px;
   }
 
   /*nav bar */
